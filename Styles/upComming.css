@@ -1,0 +1,293 @@
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #nav-bar{
+           margin: 0%;
+           padding: 0%;
+           background-color: rgb(4, 129, 202);
+           display: flex;
+           justify-content: space-between;
+           box-sizing: border-box;
+           padding: 15px;
+           /* border: 1px solid red */
+       
+       }
+
+       #nav-bar-first-part{
+           width: 50%;
+        
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+         
+       }
+       #nav-bar-first-part > div{
+           font-size: 20px;
+           color: white;
+       }
+       #logo{
+           height: 25px;
+           width: 150px;
+       }
+
+       #nav-bar-second-part{
+           
+           width: 35%;
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+       }
+       #nav-bar-second-part > div{
+          
+           color: white;
+           font-size: 20px;
+       }
+     
+       #fantasy-home{
+           height: 20px;
+           width: 20px;
+       }
+      #fantasy-img-and-text{
+          display: flex;
+      }
+      .anker-in-navbar{
+          text-decoration: none;
+          color: white;
+      }
+
+    /*  ----------------- second nav bar--------------- */
+    #Navbar-2{
+        width: 100%;
+        height: 70px;
+        background-color: rgb(248, 244, 244);
+        display: flex;
+        box-sizing: border-box;
+       
+        justify-content: space-around;
+    }
+    #Navbar-2 > a{
+        text-decoration: none;
+        color: black;
+    }
+    #Navbar-2 > a:hover{
+        color: white;
+        background-color: gray;
+        border-radius: 10px;
+    }
+    #Navbar-2 > a > div{
+        width: 150px;
+        height: 100%;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #india-logo{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+     #india-logo > img{
+        height: 50px;
+        width: 50px;
+    }
+    #india-logo > h3{
+      
+        letter-spacing: 1px;
+        margin-left: 10px;
+      
+    }
+    .vl
+    {
+        height: 100%;
+        width: 1px;
+        background-color: rgb(160, 160, 163);
+    }
+     
+    .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+    /* -----------------------------------------------------above this is the NAvbarsection */
+    #container{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #first{
+        width: 70%;
+        /* border: 1px solid red; */
+        height: 700px;
+    }     
+    #second{
+       width: 27%;
+       /* border: 1px solid red; */
+       height: 700px;
+    }
+    #fixture-and-result-head{
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 30px;
+        
+    }
+    #fixture-and-result-head > div {
+        /* border: 1px solid black; */
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #fixture-and-result-head > div >a{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+       
+    }
+    #fixture-and-result-head > div >a:hover{
+        color: red;
+    }
+    
+    #filter{
+        width: 100%;
+        margin-top: 20px;
+        height:40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+ /* -----------fixer ---------------- */
+   #fixer-body{
+       width: 100%;
+       margin-top: 20px;
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: auto;
+       border-radius: 15px;
+
+   }
+    
+   #fixer-body > div{
+       border: 1px solid rgb(238, 236, 236);
+       height: 200px;
+       
+       box-sizing: border-box;
+       padding: 15px;
+   }
+   #fixer-body > div > p{
+    margin: 4px 0px 4px 0px ;
+       font-size: 13px;
+       color: gray;
+   }
+ 
+   #fixer-body > div >div{
+     display: flex;
+     align-items: center;
+     margin: 5px 0px 5px 0px ;
+   }
+   #fixer-body > div >div > img{
+     height: 30px;
+     width: 35px;
+   }
+   #fixer-body > div >div > h3 {
+       letter-spacing: 2px;
+       font-size: 25px;
+       font-weight: lighter;
+       margin-left: 10px;
+   }
+   #fixer-body > div >button{
+       width: 100%;
+       height: 30px;
+       background-color: white;
+       border: 1px solid gray;
+       border-radius: 10px;
+
+   }
+   #fixer-body > div >button:hover{
+      
+    background-color: rgb(236, 233, 233);
+       
+   }
+
+
+   /* --------------------------------------- */
+   #container-main{
+          width: 100%;
+          height: auto;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          margin-top: 30px;
+          padding-top: 5px;
+          border-radius: 10px;
+      }
+
+      .left-side-boxer{
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+        
+      }
+      .left-side-boxes-div{
+          width: 100%;
+         text-align: center;
+         box-sizing: border-box;
+         padding: 13px;
+         border-radius: 10px;
+        
+
+      }
+      .left-side-boxes-image{
+
+          width: 100%;
+          margin: auto;
+          border-radius: 10px;
+          transition: 0.5s all ease-in-out;
+      }
+      .left-side-boxes-div-image{
+        width: 100%;
+          margin: auto;
+          border-radius: 10px;
+          overflow: hidden;
+      }
+      .left-side-boxes-image:hover{
+        transform: scale(1.5); 
+      }
+
+
+      .left-side-boxes-anker{
+         padding-left: 10px;
+         text-decoration: none;
+         font-size: 13px;
+         color: black;
+      }
+      .left-side-boxes-anker:hover{
+          color: blue;
+      }
+      .left-side-boxes2{
+          margin-top: 15px;
+      }
+      hr{
+          margin: 0%;
+          border-top: 1px dashed rgb(235, 234, 234);
+      }
+
+

@@ -1,0 +1,126 @@
+
+ /*  nav bar section */
+ body{
+            padding: 0%;
+            margin: 0%;
+        }
+       #nav-bar{
+           margin: 0%;
+           padding: 0%;
+           background-color: rgb(4, 129, 202);
+           display: flex;
+           justify-content: space-between;
+           box-sizing: border-box;
+           padding: 15px;
+           /* border: 1px solid red */
+           margin-bottom: 30px;
+       }
+
+       #nav-bar-first-part{
+           width: 50%;
+        
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+         
+       }
+       #nav-bar-first-part > div{
+           font-size: 20px;
+           color: white;
+       }
+       #logo{
+           height: 25px;
+           width: 150px;
+       }
+
+       #nav-bar-second-part{
+           
+           width: 35%;
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+       }
+       #nav-bar-second-part > div{
+          
+           color: white;
+           font-size: 20px;
+       }
+     
+       #fantasy-home{
+           height: 20px;
+           width: 20px;
+       }
+      #fantasy-img-and-text{
+          display: flex;
+      }
+      .anker-in-navbar{
+          text-decoration: none;
+          color: white;
+      }
+         
+      .sticky{
+         position: fixed;
+         top: 0%;
+         width: 100%;
+      }
+
+/* second part in this page  */
+        #main-container{
+            width: 90%;
+       
+            height: auto;
+            margin: auto;
+            margin-top: 100px;
+        }
+        .container{
+            width: 100%;
+            height: auto;
+            margin-top: 60px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .container-team-national{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+        }
+        a{
+           text-decoration: none;
+           color: black;
+        }
+        .container-team-national > a > div {
+            height: 110px;
+            display: flex;
+            border: 0.1px solid rgb(243, 241, 241);
+            align-items: center;
+            box-sizing: border-box;
+            padding: 30px;
+        }
+        .container-team-national > a >div:hover {
+           color: blue;
+           background-color: rgb(231, 229, 229);
+        }
+        .container-team-national > a >div > img {
+           height: 50px;
+           width: 50px;
+        }
+
+        .container-team-national > a > div > h2 {
+            letter-spacing: 3px;
+            font-size: 18px;
+            margin-left: 10px;
+        
+        }
+        .container-first{
+            box-sizing: border-box;
+            padding: 1px;
+            padding-left: 20px;
+        }
+       h3{
+        
+           letter-spacing: 1px;
+       }
+
+    

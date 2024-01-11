@@ -1,0 +1,99 @@
+
+
+body{
+            padding: 0%;
+            margin: 0%;
+        }
+       #nav-bar{
+           margin: 0%;
+           padding: 0%;
+           background-color: rgb(4, 129, 202);
+           display: flex;
+           justify-content: space-between;
+           box-sizing: border-box;
+           padding: 15px;
+           /* border: 1px solid red */
+           margin-bottom: 30px;
+       }
+
+       #nav-bar-first-part{
+           width: 50%;
+        
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+         
+       }
+       #nav-bar-first-part > div{
+           font-size: 20px;
+           color: white;
+       }
+       #logo{
+           height: 25px;
+           width: 150px;
+       }
+
+       #nav-bar-second-part{
+           
+           width: 30%;
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+       }
+       #nav-bar-second-part > div{
+          
+           color: white;
+           font-size: 20px;
+       }
+     
+       #fantasy-home{
+           height: 20px;
+           width: 20px;
+       }
+      #fantasy-img-and-text{
+          display: flex;
+      }
+      .anker-in-navbar{
+          text-decoration: none;
+          color: white;
+      }
+      .sticky{
+          position: fixed;
+          top: 0%; 
+          width: 100%;
+      }
+      #container{
+          width: 50%;
+          height: 480px;
+          margin: auto;
+         
+          background-color: rgb(4, 129, 202);;
+          border-radius: 20px;
+          box-sizing: border-box;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      #container > div >a >img{
+          height: 60px;
+          margin-bottom: 20px;
+       }
+       input{
+           height: 40px;
+           width: 320px;
+           margin-bottom: 20px;
+           border: none;
+           border-radius: 10px;
+       }
+      
+       #submit{
+           font-size: 15px;
+       }
+       #submit:hover{
+           color:whitesmoke;
+           background-color: green;
+       }
+

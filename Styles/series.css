@@ -1,0 +1,148 @@
+#amd
+{
+    background-color: #03a9f4;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    margin-top: -0.5%;
+}
+img
+{
+    padding-left: 15px;
+    height: 30px;
+}
+#A
+{
+  display: grid;
+  color: aliceblue;
+  font-size: large;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  column-gap: 25px;
+  list-style-type: none;
+}
+.A{
+    display: grid;
+    color: aliceblue;
+    font-size: large;
+    grid-template-columns: auto auto auto;
+    column-gap: 25px;
+    list-style-type: none;
+    margin-left: 25%;
+    margin-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A1
+{
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: 50px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+  padding-left: 2%;
+  margin-top: -1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.A2
+{
+    background-color:teal;
+    height: 80px;
+    justify-content: center; 
+}
+.BE{
+    padding-top: 3%;
+}
+.A3{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 25%;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+    background: linear-gradient(black, white);
+}
+.sel
+{
+   padding-left: 0%;
+    margin-left: 7%;
+   margin-top: 0.2%;
+   height: 20%;
+}
+.sel1
+{
+   padding-left: 2%;
+   margin-left: 2%;
+   height: 15%;
+}
+.sel2
+{
+   padding: 0%;
+   float: right;
+   height: 0%;
+   margin-top: -0.1%;
+}
+h2{
+    
+   padding-left: 2%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.own
+{
+   padding-left: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A5{
+    margin-top: 2%;
+}
+.A7
+{
+    padding-left: 0%;
+   padding-top: 2px;
+}
+.A8
+{
+    list-style-type: none;
+    font-size: 19px;
+    padding-left: 3%;
+    margin-top: -1%;
+    color: #03a9f4;
+}
+li{
+    padding-top: 1%;
+}
+.A9
+{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.A6{
+    display: flex;
+}
+.now
+{
+    padding-left: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#B
+{
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+    margin-top: -22%;
+}
+.B1
+{
+   padding-left: 0%;
+   padding-top: 2px;
+}
+.B2
+{
+    list-style-type: none;
+    font-size: 19px;
+    padding-left: 3%;
+    margin-top: -1%;
+    color: #03a9f4;
+}
+.B3
+{
+   
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+    padding-left: 60%;
+    padding-top: 0.4%;
+}
+
+

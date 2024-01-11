@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+     
+
+    #nav-bar{
+           margin: 0%;
+           padding: 0%;
+           background-color: rgb(4, 129, 202);
+           display: flex;
+           justify-content: space-between;
+           box-sizing: border-box;
+           padding: 15px;
+           /* border: 1px solid red */
+           
+       }
+
+       #nav-bar-first-part{
+           width: 50%;
+        
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+         
+       }
+       #nav-bar-first-part > div{
+           font-size: 20px;
+           color: white;
+       }
+       #logo{
+           height: 25px;
+           width: 150px;
+       }
+
+       #nav-bar-second-part{
+           
+           width: 35%;
+           display: flex;
+           justify-content: space-between;
+           align-items: center ;
+           /* border: 1px solid red; */
+       }
+       #nav-bar-second-part > div{
+          
+           color: white;
+           font-size: 20px;
+       }
+     
+       #fantasy-home{
+           height: 20px;
+           width: 20px;
+       }
+      #fantasy-img-and-text{
+          display: flex;
+      }
+      .anker-in-navbar{
+          text-decoration: none;
+          color: white;
+      }
+
+        
+      #Navbar-2{
+        width: 100%;
+        height: 70px;
+        background-color: rgb(248, 244, 244);
+        display: flex;
+        box-sizing: border-box;
+       
+        justify-content: space-around;
+    }
+    #Navbar-2 > a{
+        text-decoration: none;
+        color: black;
+    }
+    #Navbar-2 > a:hover{
+        color: white;
+        background-color: gray;
+        border-radius: 10px;
+    }
+    #Navbar-2 > a > div{
+        width: 150px;
+        height: 100%;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #india-logo{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+     #india-logo > img{
+        height: 50px;
+        width: 50px;
+    }
+    #india-logo > h3{
+      
+        letter-spacing: 1px;
+        margin-left: 10px;
+      
+    }
+    .vl
+    {
+        height: 100%;
+        width: 1px;
+        background-color: rgb(160, 160, 163);
+    }
+
+.sticky {
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+    /* -----------------------------------------------------above this is the NAvbarsection */
+    #container{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #first{
+        width: 70%;
+        /* border: 1px solid red; */
+        height: 700px;
+    }     
+    #second{
+       width: 27%;
+       /* border: 1px solid red; */
+       height: 700px;
+    }
+    #fixture-and-result-head{
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 30px;
+        
+    }
+    #fixture-and-result-head > div {
+        /* border: 1px solid black; */
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #fixture-and-result-head > div >a{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+    }
+    #fixture-and-result-head > div >a:hover{
+        color: red;
+    }
+   
+ /* -----------fixer ---------------- */
+   #fixer-body{
+       width: 100%;
+       margin-top: 20px;
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: auto;
+       border-radius: 15px;
+
+   }
+    
+   #fixer-body > div{
+       border: 1px solid rgb(238, 236, 236);
+      
+       
+       box-sizing: border-box;
+       padding: 15px;
+   }
+   #fixer-body > div > p{
+    margin: 4px 0px 4px 0px ;
+       font-size: 13px;
+       color: gray;
+   }
+ 
+   #fixer-body > div >div{
+     display: flex;
+     align-items: center;
+     margin: 5px 0px 5px 0px ;
+     
+   }
+   #fixer-body > div >div > img{
+     height: 30px;
+     width: 35px;
+   }
+   #fixer-body > div >div > h3 {
+       letter-spacing: 1px;
+       font-size: 13px;
+       font-weight: lighter;
+       margin-left: 10px;
+       
+   }
+   #fixer-body > div >button{
+       width: 100%;
+       height: 30px;
+       background-color: white;
+       border: 1px solid gray;
+       border-radius: 10px;
+
+   }
+   #fixer-body > div >button:hover{
+      
+    background-color: rgb(236, 233, 233);
+       
+   }
+
+
+   /* --------------------------------------- */
+   #container-main{
+          width: 100%;
+          height: auto;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          margin-top: 30px;
+          padding-top: 5px;
+          border-radius: 10px;
+      }
+
+      .left-side-boxer{
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+        
+      }
+      .left-side-boxes-div{
+          width: 100%;
+         text-align: center;
+         box-sizing: border-box;
+         padding: 13px;
+         border-radius: 10px;
+        
+
+      }
+      .left-side-boxes-image{
+
+          width: 100%;
+          margin: auto;
+          border-radius: 10px;
+          transition: 0.5s all ease-in-out;
+      }
+      .left-side-boxes-div-image{
+        width: 100%;
+          margin: auto;
+          border-radius: 10px;
+          overflow: hidden;
+      }
+      .left-side-boxes-image:hover{
+        transform: scale(1.5); 
+      }
+
+
+      .left-side-boxes-anker{
+         padding-left: 10px;
+         text-decoration: none;
+         font-size: 13px;
+         color: black;
+      }
+      .left-side-boxes-anker:hover{
+          color: blue;
+      }
+      .left-side-boxes2{
+          margin-top: 15px;
+      }
+      hr{
+          margin: 0%;
+          border-top: 1px dashed rgb(235, 234, 234);
+      }
+
+
+</style>
+</head>
+<body>
+    <div class="sticky">
+    <div id="nav-bar">
+        <div id="nav-bar-first-part">
+            <div>
+                <a href="index.html"><img id="logo" src="https://wassets.hscicdn.com/static/images/logo.png" alt=""></a>
+                
+            </div>
+            <div>
+                <a href="../livescore.html" class="anker-in-navbar">Live Scores</a>
+            </div>
+            <div><a href="" class="anker-in-navbar">Series</a> </div>
+            <div><a href="../teams.html" class="anker-in-navbar">Teams</a></div>
+            <div><a href="" class="anker-in-navbar">News</a></div>
+            <div><a href="" class="anker-in-navbar">Features</a></div>
+            <div><a href="../videos.html" class="anker-in-navbar">Videos</a></div>
+        </div>
+        <div id="nav-bar-second-part">
+            <div id="fantasy-img-and-text">
+                <div> 
+                    <img id="fantasy-home" src="https://wassets.hscicdn.com/static/images/fantasy-home.png" alt="">
+                </div>
+               <div>
+                <a href="" class="anker-in-navbar">. Fantasy</a>
+               </div>
+               
+            </div>
+            <div><a href="../login.html" class="anker-in-navbar">Log In</a></div>
+            <div><a href="../signup.html" class="anker-in-navbar">Sign Up/a></div>
+            <div> <a href="" class="anker-in-navbar"><i class="fa-solid fa-bell"></i></a> </div>
+            <div> <a href="" class="anker-in-navbar"><i class="fa-solid fa-boxes-stacked"></i></a> </div>
+            <div> <a href="" class="anker-in-navbar"> <i class="fa-solid fa-magnifying-glass"></i></a> </div>
+        </div>
+    </div>
+    <!-- ----------------------------------- -->
+    <div id="Navbar-2" >
+        <a href="australia.html">
+            <div id="india-logo">
+                <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/313100/313124.logo.png" alt="">
+                  <h3 >AUS</h3>
+            </div>
+        </a>
+        <div class="vl"></div>
+        <a href="../india/india.html"><div>India</div></a>
+        <a href=""><div>England</div></a>
+        <a href=""><div>West Indeis</div></a>
+        <a href=""><div>Pakistan</div></a>
+        <a href=""><div>Sri Lanka</div></a>
+        <a href=""><div>Bangladesh</div></a>
+         
+    </div>
+    </div>
+<!--            above is second navbar       -->
+    <div id="container">
+        <div id="first">
+            <div id="fixture-and-result-head">
+                <div><a href="australia.html">Fixer</a></div>
+               
+                <div style="border: 1px solid rgb(228, 225, 225); width: 0%;"></div>
+                <div><a href="resultaustralia.html">Result</a></div>
+            </div>
+
+        
+
+            <div id="fixer-body">
+
+            </div>
+        </div>
+        <div id="second">
+            <div id="container-main">
+                <div class="left-side-boxes left-side-boxes2 ">
+                    <div class="left-side-boxes-div">
+                        <div class="left-side-boxes-div-image">
+                            <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/209800/209895.5.jpg" alt=""> </a>
+                        </div>
+                        
+                         <a href="" class="left-side-boxes-anker">On This Day: Lara's 153 not out</a>
+            
+                    </div>
+                    </div>
+                         <hr>
+            
+            
+            
+                       <div class="left-side-boxes left-side-boxes2 ">
+                        <div class="left-side-boxes-div">
+                            <div class="left-side-boxes-div-image">
+                                <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/336900/336902.5.png" alt=""></a>
+                            </div>
+                            
+                             <a href="" class="left-side-boxes-anker">Quote Unquote: who's saying what?</a>
+            
+                        </div>
+                    </div>
+                         <hr>
+                       
+            
+            
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/332500/332592.5.png" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">ESPNcricinfo Awards 2021</a>
+             
+                            </div>
+                        </div>
+                        <hr>
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/334200/334205.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">Fast times with Shabnim Ismail</a>
+             
+                            </div>
+                        </div>
+                        <hr>
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/336800/336871.5.jpg" alt=""></a>
+                                
+                                 <a href="" class="left-side-boxes-anker">The latest cricket photos</a>
+             
+                            </div>
+                   
+                        </div>
+                        <hr>
+            
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/298100/298128.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">The future of batting is tall</a>
+             
+                            </div>
+                   
+                        </div>
+                        <hr>
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/324600/324653.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">Who does it best in women's cricket?</a>
+             
+                            </div>
+                   
+                        </div>
+                        <hr>
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/333700/333710.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">Rizwan: 'I want to do what nobody else is doing'</a>
+             
+                            </div>
+                   
+                        </div>
+                        <hr>
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/335400/335406.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">Records index: most runs, most wickets, and a lot more</a>
+             
+                            </div>
+                   
+                        </div>
+                        <hr>
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/333500/333524.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">A look back at England women's Ashes win in 2005</a>
+             
+                            </div>
+                   
+                        </div>
+                        <hr>
+            
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/335800/335884.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">Rankings: Who's leading in every format</a>
+             
+                            </div>
+                   
+                        </div>
+                        <hr>
+            
+            
+                        <div class="left-side-boxes left-side-boxes2 ">
+                            <div class="left-side-boxes-div">
+                                <div class="left-side-boxes-div-image">
+                                    <a href=""> <img  class="left-side-boxes-image" src="https://img1.hscicdn.com/image/upload/f_auto,t_gn_w_656/lsci/db/PICTURES/CMS/333600/333619.5.jpg" alt=""></a>
+                                </div>
+                                
+                                 <a href="" class="left-side-boxes-anker">Photo feature: mascots in cricket</a>
+             
+                            </div>
+                   
+                        </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
+<script>
+    
+    var resultarr = [
+            
+    {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+
+        {dateTime: "SAT, 02 APR, 3:30 PM",
+         discription:"3rd ODI (D/N), Lahore, Apr 2 2022, Australia tour of Pakistan",
+          firstImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313129.logo.png",
+          secondImg:"https://img1.hscicdn.com/image/upload/f_auto,t_s_100/lsci/db/PICTURES/CMS/313100/313124.logo.png",
+          firstTeamName:"Pakistan",
+         secondTeamName:"Australia",
+        matchStatus:"Match yet to begin",
+        firstrums:"||  252 & 303/9d",
+        secondruns:"|| (target 447) 109 & 208"},
+       
+    ];
+  
+
+    window.addEventListener("load",function(){
+        display(resultarr);
+       
+    })
+
+
+
+       
+
+    function display(arr){
+        var fixerBody = document.querySelector("#fixer-body");
+        
+
+        arr.map(function(elem){
+            var div = document.createElement("div");
+
+            var datetime = document.createElement("h4");
+            datetime.innerText = elem.dateTime;
+             
+            var discription = document.createElement("p");
+            discription.innerText = elem.discription
+             
+            var hr = document.createElement("hr");
+
+            
+       
+            var div2 = document.createElement("div");
+
+            var img1 = document.createElement("img");
+            img1.src = elem.firstImg;
+
+            var team1 = document.createElement("h3");
+            team1.innerText = elem.firstTeamName;
+
+           
+
+            
+            var runs = document.createElement("h3");
+            runs.innerText = elem.firstrums; 
+            
+            div2.append(img1,team1,runs);
+
+           
+            var div3 = document.createElement("div");
+
+            var img2 = document.createElement("img");
+             img2.src = elem.secondImg;
+
+            var team2 = document.createElement("h3");
+            team2.innerText = elem.secondTeamName;
+            
+             var runs1 = document.createElement("h3");
+             runs1.innerText = elem.secondruns;
+
+            div3.append(img2,team2,runs1);
+
+             
+            var matchstatus = document.createElement("p");
+            matchstatus.innerText = elem.matchStatus;
+             
+          
+
+            div.append(datetime,discription,hr,div2,div3,matchstatus);
+            fixerBody.append(div);
+        })
+    }
+
+   
+    
+</script>

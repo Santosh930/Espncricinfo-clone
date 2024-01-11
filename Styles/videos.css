@@ -1,0 +1,247 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#nav-bar{
+         margin: 0%;
+         padding: 0%;
+         background-color: rgb(4, 129, 202);
+         display: flex;
+         justify-content: space-between;
+         box-sizing: border-box;
+         padding: 15px;
+         /* border: 1px solid red */
+         margin-bottom: 30px;
+     }
+
+     #nav-bar-first-part{
+         width: 50%;
+      
+         display: flex;
+         justify-content: space-between;
+         align-items: center ;
+         /* border: 1px solid red; */
+       
+     }
+     #nav-bar-first-part > div{
+         font-size: 20px;
+         color: white;
+     }
+     #logo{
+         height: 25px;
+         width: 150px;
+     }
+
+     #nav-bar-second-part{
+         
+         width: 35%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center ;
+         /* border: 1px solid red; */
+     }
+     #nav-bar-second-part > div{
+        
+         color: white;
+         font-size: 20px;
+     }
+   
+     #fantasy-home{
+         height: 20px;
+         width: 20px;
+     }
+    #fantasy-img-and-text{
+        display: flex;
+    }
+    .anker-in-navbar{
+        text-decoration: none;
+        color: white;
+    }
+   
+/* ------------------------------ nav bar ------------------------- */
+      .container{
+          width: 100%;
+          height: auto;
+        border-radius: 20px;
+       margin-top: 50px;
+        box-sizing: border-box;
+        padding: 15px;
+          
+      }
+      .container > div > div > h1{
+          letter-spacing: 2px;
+          font-size: 35px;
+          margin-bottom: 20px;
+      }
+      .video-box{
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: auto;
+          gap: 20px;
+          justify-content: space-between;
+      }
+     
+ .video-box > div {
+   position: relative;
+    width: 100%;
+   
+  }
+  .video-box > div > div{
+      width: 100%;
+     
+      overflow: hidden;
+      border-radius: 10px;
+      margin-bottom: 5px;
+  }
+
+   .video-box > div > div  img {
+     width: 100%;
+     height: 100%;
+     transition: 0.5s all ease-in-out;
+     border-radius: 10px;
+    
+ }
+ .video-box > div > div  img:hover {
+     width: 100%;
+     height: 100%;
+   transform: scale(1.5);
+ 
+    
+ }
+    
+ 
+
+
+    .video-box > div > div > button {
+     height: 35px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     color: rgb(243, 12, 12);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 12px;
+     border: none;
+    cursor: pointer;
+     border-radius: 20px;
+  }
+
+  .video-box > div > div > button:hover{
+         color: blue;
+  }
+  .video-box > div > div > p{
+      color: gray;
+  }
+
+  /* --------------------------- middle part-------------------------- */
+  #conatiner-2{
+      width: 100%;
+          height: 240px;
+        border-radius: 20px;
+      
+        box-sizing: border-box;
+        padding: 15px;
+        margin-top: 40px;
+      
+        display: flex;
+        justify-content: space-around;
+  }
+ 
+  #conatiner-2 > div {
+       height: 100%;
+       width: 15%;
+       background-color: rgb(7, 7, 7);
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       box-sizing: border-box;
+       padding: 10px;
+       border-radius: 10px;
+  }
+  #conatiner-2 > div > a > img{
+      width: 100%;
+      height: 100%;
+  }
+/* ------------------------------------------------ last part ------------------------------ */
+    
+#container-3{
+          width: 100%;
+          height: auto;
+        border-radius: 20px;
+       
+        box-sizing: border-box;
+        padding: 15px;
+        margin-top: 70px;
+          
+      }
+      #container-3 > div > div > h1{
+          letter-spacing: 2px;
+          font-size: 35px;
+          margin-bottom: 20px;
+      }
+      #videobox2{
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: auto;
+          gap: 20px;
+          justify-content: space-between;
+      }
+     
+ #videobox2 > div {
+   position: relative;
+    width: 100%;
+   
+  }
+  #videobox2 > div > div{
+      width: 100%;
+     
+      overflow: hidden;
+      border-radius: 10px;
+      margin-bottom: 5px;
+  }
+
+   #videobox2 > div > div  img {
+     width: 100%;
+     height: 100%;
+     transition: 0.5s all ease-in-out;
+     border-radius: 10px;
+    
+ }
+ #videobox2 > div > div  img:hover {
+     width: 100%;
+     height: 100%;
+   transform: scale(1.5);
+ 
+    
+ }
+    
+ 
+
+
+    #videobox2 > div > div > button {
+     height: 35px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     background-color: white;
+     color: rgb(243, 12, 12);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 12px;
+     border: none;
+    cursor: pointer;
+     border-radius: 20px;
+  }
+
+  #videobox2 > div > div > button:hover{
+         color: blue;
+  }
+  #videobox2 > div > div > p{
+      color: gray;
+  }
+
+  
